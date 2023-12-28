@@ -1,0 +1,24 @@
+body {
+    background-color: #17202A;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.album nav {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 640px;
+    height: 390px;
+    /* -webkit-box-shadow: 42px -29px 30px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 42px -29px 30px -21px rgba(0,0,0,0.75);
+    box-shadow: 42px -29px 30px -21px rgba(0,0,0,0.75); */
+    border-radius: 2%;
+}
+
