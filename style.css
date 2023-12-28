@@ -14,10 +14,13 @@ h1 {
     margin-top: .5em;
 }
 
-.contenido {
-    margin: 1em;
+.contenedor {
     display: flex;
     justify-content: center;
+}
+
+.contenido {
+    display: flex;
     height: 540px;
 }
 
