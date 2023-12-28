@@ -1,5 +1,5 @@
 * {
-    font-family: 'Sevillana', cursive;
+    font-family: 'Rubik Doodle Shadow';
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ h1 {
 .contenido {
     display: flex;
     height: 540px;
+    box-shadow: 1px -1px 1.5em white;
 }
 
 img {
@@ -30,13 +31,16 @@ img {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #ddd;
     padding: 10px;
     width: 150px;
 }
 
 aside a {
-    display: flex;
+    /* display: flex; */
     margin: 5px 0;
     padding: 8px;
     background-color: #ccc;
