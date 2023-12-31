@@ -5,14 +5,15 @@
 }
 
 header {
-    background-color: #ccc;
+    background-color: #17202A;
     height: 15vh;
     box-sizing: border-box;
+    border-bottom: solid 2.4px white;
 }
 
 header h1 {
     text-align: center;
-    color: white;
+    color: #FDFEFE;
 }
 
 nav {
@@ -23,12 +24,12 @@ nav {
 nav a {
     margin: .5em .25em;
     text-decoration: none;
-    color: #333;
+    color: #FDFEFE;
     font-size: 1.5em;
 }
 
 nav a:hover {
-    color: white;
+    border-bottom: solid .1em white;
 }
 
 .contenedor {
@@ -47,18 +48,19 @@ img {
 aside {
     display: flex;
     flex-direction: column;
-    background-color: #ddd;
+    background-color: #273746;
     width: 15%;
+    border-right: solid 2.4px white;
 }
 
 aside a {
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color: #FDFEFE;
     flex-grow: 1;
 }
 
 aside a:hover {
-    background-color: #aaa;
-    color: white;
+    /* background-color: #aaa; */
+    /* border-bottom: solid .1em white; */
 }
