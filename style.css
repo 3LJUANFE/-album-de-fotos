@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #17202a;
+  background-color: #272d33;
   height: 10vh;
   border-bottom: solid 2.4px white;
   display: flex;
@@ -17,7 +17,7 @@ header {
 header nav a {
   margin: .5rem;
   text-decoration: none;
-  color: #fdfefe;
+  color: #c5cdd8;
   font-size: 1.5em;
 }
 
@@ -26,7 +26,7 @@ header h1 {
 }
 
 nav a:hover {
-  border-bottom: solid 0.1em white;
+  color: white;
 }
 
 .slider-wrapper {
