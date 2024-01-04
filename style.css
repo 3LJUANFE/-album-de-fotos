@@ -1,66 +1,108 @@
 * {
-    font-family: 'Rubik Doodle Shadow';
-    margin: 0;
-    padding: 0;
+  font-family: "Rubik Doodle Shadow";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #17202A;
-    height: 15vh;
-    box-sizing: border-box;
-    border-bottom: solid 2.4px white;
+  background-color: #17202a;
+  height: 10vh;
+  border-bottom: solid 2.4px white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav a {
+  margin: .5rem;
+  text-decoration: none;
+  color: #fdfefe;
+  font-size: 1.5em;
 }
 
 header h1 {
-    text-align: center;
-    color: #FDFEFE;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-nav a {
-    margin: .5em .25em;
-    text-decoration: none;
-    color: #FDFEFE;
-    font-size: 1.5em;
+  color: #fdfefe;
 }
 
 nav a:hover {
-    border-bottom: solid .1em white;
+  border-bottom: solid 0.1em white;
 }
 
-.contenedor {
-    width: 100%;
-    height: 85vh;
-    display: flex;
-    box-sizing: border-box;
+.slider-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: 6px auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 .25rem .5rem #17202a;
+  border-radius: .5rem;
+}
+
+.slider img{
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  background-color: white;
+  opacity: .75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 100%;
+}
+
+/* .contenedor {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  box-sizing: border-box;
 }
 
 img {
-    width: 85%;
-    height: auto;
-    box-sizing: border-box;
+  width: 85%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 aside {
-    display: flex;
-    flex-direction: column;
-    background-color: #273746;
-    width: 15%;
-    border-right: solid 2.4px white;
+  display: flex;
+  flex-direction: column;
+  background-color: #273746;
+  width: 15%;
+  border-right: solid 2.4px white;
 }
 
 aside a {
-    text-align: center;
-    text-decoration: none;
-    color: #FDFEFE;
-    flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fdfefe;
+  flex-grow: 1;
 }
 
 aside a:hover {
-    /* background-color: #aaa; */
-    /* border-bottom: solid .1em white; */
-}
+  background-color: #aaa;
+  border-bottom: solid .1em white; 
+} */
